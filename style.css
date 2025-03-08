@@ -37,6 +37,13 @@ body {
   position: relative;
   padding: 1rem;
   margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  width: 50px;
 }
 
 p span {
@@ -46,7 +53,7 @@ p span {
   font-size: 12px;
   position: absolute;
   top: -35%;
-  left: 40%;
+  right: 19%;
   z-index: 1;
   color: black;
   display: none;
